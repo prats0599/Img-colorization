@@ -1,5 +1,5 @@
 # Img-colorization
-Converted images from grayscale to color using a unet style architecture, with a resnet 34 as an encode and a decoder for the unet. The loss function was based on the paper [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://arxiv.org/abs/1603.08155). In essence they use the weights of a pretrained vgg16 model(with BatchNorm) to calculate a loss from the features. The whole idea was based on the same ground as for the [Image enhancement repo](https://github.com/prats0599/Image-Enhancer.git). The results obtained were mixed and a few of them are displayed below:  
+Converted images from grayscale to color using a unet style architecture, with a resnet 34 as an encode and a decoder for the unet. The loss function was based on the paper [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://arxiv.org/abs/1603.08155). In essence they use the weights of a pretrained vgg16 model(with BatchNorm) to calculate a loss from the features. The implementation is similar to the one done in https://github.com/prats0599/Image-Enhancer. The results obtained were mixed in terms of expectations and a few of them are displayed below:  
 They are in order of **Input/Prediction/Actual**  
 **The good**   
 ![Image1](images/g1.JPG)
